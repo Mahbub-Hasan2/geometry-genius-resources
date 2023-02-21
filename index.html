@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius Resources</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- navbar section start  -->
+    <nav class="container mx-auto py-5">
+        <div class="flex justify-between bg-[#E7F4FB] px-5 py-4 rounded-lg">
+            <div class="">
+                <h2 class="text-2xl font-bold">Interactive</h2>
+                <p class="font-semibold text-gray-500">Geometry Genius</p>
+            </div>
+            <div class=" h-full flex items-center">
+                <a href="./blog.html">
+                    <button class="border bg-blue-500 w-28 py-2 rounded-lg text-white font-semibold">Blog</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- layout  -->
+    <div class="container mx-auto">
+        <div class="grid grid-cols-11 gap-4">
+            <div class="col-span-11 md:col-span-8">
+                <!-- cards sections start -->
+
+                <div id="cards" class=" grid gap-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+
+                </div>
+
+                <!-- cards section end  -->
+            </div>
+            <div class="col-span-11 md:col-span-3 border rounded-lg">
+                <h2 class="text-xl font-semibold underline text-center py-5">Area Calculation</h2>
+                <div id="area-calculation-cards" class="p-4">
+                    <h3 class="text-center">sorry no data</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
